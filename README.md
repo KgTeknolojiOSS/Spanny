@@ -4,9 +4,20 @@ A helper class that extends SpannableStringBuilder and adds methods to easily ma
 ![example](http://i.imgur.com/NPnl0yy.png?1)
 
 ### Download
-You can just [copy the class][1] to your project or grab it via Gradle:
+1-)Add it in your root build.gradle at the end of repositories:
 ```
-compile 'com.binaryfork:spanny:1.0.4'
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+2-)Add the dependency:
+```
+dependencies {
+  implementation 'com.github.KgTeknolojiOSS:Spanny:2.0.0'
+}
 ```
 
 ### Usage
